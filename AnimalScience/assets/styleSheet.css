@@ -1,0 +1,142 @@
+
+body {
+    background-color: #ffffff;
+    color: black;
+}
+
+input{
+    width: 250px;
+    color: #ff6a00;
+    border-radius: 0 0 0 0;
+    
+}
+input.top{
+    border-radius: 6px 6px 0 0;
+}
+input.buttom{
+    border-radius: 0 0 6px 6px;
+}
+table.lectureNote{
+    width: 250px;
+    padding: 100px;
+    border-color: #ffffff;
+    border-radius: 6px 6px 6px 6px;
+    color: #0d7ddd
+}
+th.course{
+    background-color: #0094ff;
+    border-radius: 6px 6px 0 0;
+}
+table.dev{
+     width: 250px;
+    border-color: #ffffff;
+    border-radius: 6px 6px 0 0;
+}
+table.content{
+     width: 250px;
+    border-color: #ffffff;
+    border-radius: 0 0 0 0;
+}
+table.sugestions{
+     width: 250px;
+    border-color: #ffffff;
+    border-radius: 0 0 6px 6px;
+}
+div.ansMain{
+    width: 250px;
+    border-radius: 7px 7px 7px 7px;
+}
+a:link {
+   color: #0000CC;
+   text-decoration: underline;
+}
+a:visited {
+   color: #553377;
+   text-decoration: underline;
+}
+a:active {
+   color: #CC2222;
+   text-decoration: underline;
+}
+a:hover {
+   color: #6666FF;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+
+h1{
+   
+    text-transform: uppercase;
+    font: Georgia, serif;
+color: #fff;
+    text-decoration: none;
+    padding: 4px;
+    display: block
+}
+h2
+{
+font: Georgia, serif;
+
+}
+h3
+{
+font: Georgia, serif;
+border-top: 3px solid #553377;
+border-bottom: 3px solid #553377;
+
+}
+p{
+   
+    font-size: 20px;
+    color: #000;
+}
+p.lecturer{
+    font-size: 20px;
+    text-align: center;
+}
+dt{
+ font-weight: 800; 
+ font-size: 20px;
+ 
+   
+}
+.dt{
+    font-weight: 800;
+    font-size: 20px;
+}
+ul{
+    
+    font-size: 20px
+}
+ol{
+   
+    font-size: 20px 
+}
+dd{
+    text-align: justify;
+    font-size: 20px;
+}
+.dd{
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+}
+hr.break {
+   align:center;
+   width: 33%;
+}
+img.bordered {
+    border: solid black 1px;
+    background-color: white;
+    padding: 100px;
+    alignment-adjust: central;
+}
+
+#footerlinks{
+    text-align: right;
+}
+#headerlinks{
+    text-align: right;
+}
+

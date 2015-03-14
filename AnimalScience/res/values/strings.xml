@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Animal Science</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="developer">Ukor Jidechi E</string>
+    <string name="img_discription">app_img</string>
+    <string name="licenses">Licenses</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="about">About</string>
+    
+     <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="desc">app_img</string>
+    
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Animal Science</item>
+        <item >ANATOMY AND PHYSIOLOGY OF FARM ANIMALS [ANS 211]</item>
+        <item >PRINCIPLES OF ANIMAL PRODUCTION [ANS 212]</item>
+        <item >NON RUMINANT ANIMAL PRODCTION [ANS 311]</item>
+        <item >RUMINANT ANIMAL PRODUCTION [ANS 312]</item>
+        <item >INTRODUCTION TO ANIMAL HEALTH MANAGEMENT [ANS 321]</item>
+        <item >AGRICULTURAL BIOCHEMISTRY [ANS 332]</item>
+        <item >ANIMAL GENETICS AND BREEDING [ANS 352]</item>
+        <item >ANIMAL HEALTH MANAGEMENT [ANS 401]</item>
+        <item >ANIMAL HUSBANDRY TECHNIQUES [ANS 411]</item>
+        
+    </string-array>
+     
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_action_make_available_offline</item>
+        <item>@drawable/ic_action_make_available_offline</item>
+        <item>@drawable/ic_action_make_available_offline</item>
+        <item>@drawable/ic_action_make_available_offline</item>
+        <item>@drawable/ic_action_make_available_offline</item>
+        <item>@drawable/ic_action_make_available_offline</item>
+        <item>@drawable/ic_action_make_available_offline</item>
+        <item>@drawable/ic_action_make_available_offline</item>
+        <item>@drawable/ic_action_make_available_offline</item>
+        <item>@drawable/ic_action_make_available_offline</item>
+    </array>
+</resources>

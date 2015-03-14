@@ -1,0 +1,149 @@
+#head{
+    font:  Geogia, serif,;
+    color: #ffffff;
+    background-color: #fff;
+	}
+body {
+    padding: 0px;
+    color: black;
+    background-color: #ffffff;
+
+border: 100px;
+}
+#main
+{
+padding: 5px;
+background-color: #e8ebec;
+border-radius: 4px 4px 4px 4px;
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background: C5CAE9;
+    border: solid 1px #FF80AB;
+}
+#panel{
+    padding: 50px;
+    display: none;
+}
+#panel2, #flip2 {
+    padding: 5px;
+    text-align: center;
+    background: C5CAE9;
+    border: solid 1px #FF80AB;
+}
+#panel2{
+    padding: 50px;
+    display: none;
+}
+#mainLectureNote
+{
+    width: 251px;
+padding: 5px;
+background-color: #ffffff;
+border-radius: 4px 4px 4px 4px;
+
+}
+#button{
+    height: 100px;
+    width: 200px;
+    border-radius: 6px 6px 6px 6px;
+    border-color:  Aqua;
+}
+input{
+    width: 200px;
+    border: 0;
+}
+a:link {
+   color: #0000CC;
+   text-decoration: underline;
+}
+a:visited {
+   color: #553377;
+   text-decoration: underline;
+}
+a:active {
+   color: #CC2222;
+   text-decoration: underline;
+}
+a:hover {
+   color: #6666FF;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+
+h1{
+   
+    text-transform: uppercase;
+    font: Georgia, serif;
+border-bottom: ;
+color: #996600;
+text-align: center;
+    text-decoration: none;
+    padding: 4px;
+    display: block
+}
+h2
+{
+font: Georgia, serif;
+color: #996600;
+}
+h3
+{
+font: Georgia, serif;
+border-top: 3px solid #cc9900;
+border-bottom: 3px solid #cc9900;
+
+}
+p{
+   
+    font-size: 20px;
+    color: #000;
+}
+p.lecturer{
+    font-size: 20px;
+    text-align: center;
+}
+dt{
+ font-weight: 800; 
+ font-size: 20px;
+ 
+   
+}
+.dt{
+    font-weight: 800;
+    font-size: 20px;
+}
+ul{
+    
+    font-size: 20px
+}
+ol{
+   
+    font-size: 20px 
+}
+dd{
+    text-align: justify;
+    font-size: 20px;
+}
+.dd{
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+}
+hr.break {
+   align:center;
+   width: 33%;
+}
+img.bordered {
+    border: solid black 1px;
+    background-color: white;
+    padding: 10px;
+}
+#footerlinks{
+    text-align: right;
+}
+#headerlinks{
+    text-align: right;
+}

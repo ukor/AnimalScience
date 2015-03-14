@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="black_overlay">#66000000</color>
+   <color name="list_item_title">#ffffff</color>
+   <color name="counter_text_color">#ffffff</color>
+   <color name="list_background">#d5a6f9</color>
+   <color name="counter_text_bg">#662d91</color>
+   
+   <color name="ukor_splash">#ff9400</color>
+   <color name="list_focus">#f4beff</color>
+   <color name="text_color">#ffffff</color>
+   <color name="actionbar_bg">#662d91</color>
+   <color name="actionbar_split_bg">#3F51B5</color>
+   <color name="list_divider">#86688c</color>
+</resources>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8" />
+       
+        <link rel="stylesheet" type="text/css" href="home.css" />
+        <script src="jquery-1.11.1.min.js"></script>
+        <!--include jquery labrary-->
+        <script src="jQureryMobile/jquery.mobile-1.4.5.min.js"></script>
+        <!--including jquery style sheet-->
+        <link rel="stylesheet" type="text/css" href="jQureryMobile/jquery.mobile-1.4.5.min.css">
+        
+       <!--customize theme-->
+        <link rel="stylesheet" href="themes/themeAns.min.css" />
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+         <link rel="stylesheet" type="text/css" href="styleSheet.css" />
+        <title>DEPARTMENT OF ANIMAL SCIENCE</title>
+    </head>
+    <body>
+       <div data-role="page" id="index">
+           <div data-role="header">
+                       <h1>DepartMent Of Animal Science [EBSU]</h1>
+               <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                   <li><a href="#licenses" data-rel="popup" data-transition="flip">Licenses</a></li>
+               <li><a href="#about" data-rel="popup" data-transition="flip">About</a></li>
+                   <li><a href="#disclaimer" data-rel="popup">Disclaimer</a></li>
+               </ul>
+               </div>
+               <!--Navigation Bar ends-->
+               </div> <!-- -->
+
+           <!--main content -->
+           <div data-role="main" class="ui-content">
+<!--============================================================HOME PAGE=======================================================================-->
+             <!--====about popup with tabs======-->
+               <div data-role="popup" id="about" data-dismissible="false">
+               <div data-role="header">
+               <a href="index.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+                   <h1>About</h1>
+                    
+               </div><!--/header close-->
+                   <div data-role="main" class="ui-content">
+                   <table>
+             <tr>
+             <td> <dl><dt>Developed By:</dt><dd>Ukor Jidechi E.<br><i>All application rights are Reserved.<br> 
+                 Copyright &copy; 2014 zyx system inc.</i></dd></dl></td>
+              </tr></table>
+                       <table>
+                 <tr>   
+            <td> <dl><dt>Content:</dt><dd> 
+                The content of the application is for <br>general information and use only.<br></dd></dl></td>
+             </tr>
+             </table>
+                       <table>
+                 <tr>   
+            <td> <dl><dt>Sugestions and Enquiries:</dt><dd>Any enquiries and suggestions<br> 
+                about/for
+                 this application, <br>Please email me.
+                <br>ukorjidechi@gmail.com <br>
+                        </dd></dl></td>
+             </tr>
+             </table>
+                 
+        
+                   </div><!--main ends-->
+               </div><!--/about popup ends-->
+
+
+
+                <!--======licenses popup====-->
+               <div data-role="popup" id="licenses" data-dismissible="false">
+               <div data-role="header">
+               <a href="index.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+                   <h1>Licenses</h1>
+                    
+               </div><!--/header close-->
+                   <div data-role="main" class="ui-content">
+                       <table>
+             <tr>
+             <td> <p>
+                    Contents of this application is licensed<br> under the Creative Commons <br>Attribution-NonCommercial 4.0<br> 
+                 International License.<br>
+                     To view a copy of this license, visit<br>
+                  http://creativecommons.org/licenses/by-nc/4.0/.</td>
+              </tr></table>
+
+                   <table>
+             <tr>
+             <td> <p>This license allows you to share, adapt<br> the contents of the lecture note<br> under the following terms: </p></td>
+              </tr></table>
+                       <table>
+                 <tr>   
+            <td> <dl><dt>Attribution</dt>
+                    <dd> You must give appropriate credit to <br>the orginal author, provide a link to  to the  <br> 
+                        lincense, and indicate if changes were made.<br> You may do so in reasonable manner, <br>
+                        but not in a way that suggests the<br> licensor endores you or your use </dd></dl></td>
+             </tr>
+             </table>
+                       <table>
+                 <tr>   
+            <td> <dl><dt>Non commercial</dt>
+                    <dd> You may not use the contents of the<br>
+                         lecture note for commercial purposes</dd></dl></td>
+             </tr>
+             </table>
+                  <table>
+                 <tr>   
+            <td> <dl><dt>ShareAlike</dt>
+                    <dd>If you must build upon the contents of<br> the lecture note, you must distribute<br> 
+                        contribution under the same license<br> as the orginal.</dd></dl></td>
+             </tr>
+             </table>
+        
+                   </div><!--main ends-->
+               </div><!--/licenses popup ends-->
+
+
+                <!--Information Button-->
+                <a href="#information" data-rel="popup" class="ui-btn ui-mini ui-shadow ui-corner-all 
+                  ui-icon-info ui-btn-icon-left ui-nodisc-icon" data-position-to="window">Information</a>
+               
+               <!--Information popup-->
+               <div data-role="popup" id="information" data-dismissible="false">
+               <div data-role="header">
+                   <a href="index.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Please Note</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                    <p>Content of this application may/maynot be <br>
+                   the same as what the course lecturer may say <br>
+                   in class but they are proven to be accurate and<br>
+                   authentic before publication of the app.<br>
+                   </p>
+                   <p>Attending Classes is <b>Neccessary!</b></p>
+                   </div>
+               </div><!--/information popup end-->
+
+
+
+               <!--Disclaimer  popup-->
+               <div data-role="popup" id="disclaimer" data-dismissible="false">
+               <div data-role="header">
+                   <a href="index.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Disclaimer</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <p>The content of this application are<br>
+                        for general information only.<br> 
+                    Neither the developer nor <br>
+                       <i>zyx system inc.</i>
+                    will be held <br>responsible for any 
+                       use other<br>
+                        than that granted by
+                        the licenses. </p>
+                       <p><i>zyx system inc</i> is neither<br> affliated
+                            to the department of <br>Animal Science
+                           nor the School, <br>Ebonyi state University.</p>
+                   </div>
+               </div><!--/information popup end-->
+
+                  <!--======collapsible for philosopy and objective of the deparment of animal science======-->
+           <div data-role="collapsible" class="ui-mini" data-collapsed="false">
+           <h2>Philosophy</h2>
+        <p>
+            The department offers courses which have been designed to develop scientist
+        with a broad knowlegde of the fundamental and applied science, common to all 
+            farm animals and thier products, as well  as the principles of animal production.
+        The department caters for the brand of agriculture concerned with teaching of courses such as 
+        animal nutrition, anatomy and physiology, health and diseases, animal production
+        and management, genetics and other biotechnological courses relevant to animal production.
+             The programe is also design to train 
+        student in areas of pasture production and range mangement
+        </p>
+           </div><!--/ends philosophy collapsible-->
+           <hr class="break">
+               <div data-role="collapsible" class="ui-mini" data-collapsed="false">
+                <h2>Objective</h2>
+                        <p>The overall objective of the programme is to train students to acquire
+                           skills and competence required for service as animal scientist.
+                           Graduate of the programme will serve as a major source of manpower for the livestock 
+                            industry, goverment ministries and international organisations, which emphasize animal 
+                            production and mangement, goverment and private firms, universities 
+                            and other educational and research establishment with interest in animal training.
+                            Graduate of the programme are also expected to perform in all business concerns. </p>
+               </div><!--/ends collapsible for objective-->
+              <hr class="break">
+
+               <!--=====COLLAPSIBLE FOR DISCLAIMER============-->
+               <div data-role="collapsible" class="ui-mini" data-collapsed="false">
+               <h2>Disclaimer</h2>
+                   <ul>
+                   <li>The content of this application are
+                        for general information only.
+                    Neither the developer nor
+                       <i>zyx system inc.</i>
+                    will be held responsible for any 
+                       use other
+                        than that granted by
+                        the licenses.</li>
+                       <li>Content of this application may/maynot be 
+                   the same as what the course lecturer may say
+                   in class but they are proven to be accurate and
+                   authentic before publication of the app.</li>
+                       <li><i>zyx system inc</i> is neither affliated to 
+                           the department of Animal Science nor the
+                            School, Ebonyi state University.</li>
+                   </ul>
+               </div>
+
+  
+               </div> <!--/main end class="ui-content"-->
+           
+          
+         
+                       </div>
+           <!--footer-->
+           <div data-role="footer">
+           </div> <!--footer ends-->
+
+                  </div>
+
+    </body>
+</html>
