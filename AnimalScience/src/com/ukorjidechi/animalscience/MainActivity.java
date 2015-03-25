@@ -46,7 +46,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
-       
+       // use to get the drawer tittle
         mTitle = mDrawerTitle = getTitle();
  
         // load slide menu items
