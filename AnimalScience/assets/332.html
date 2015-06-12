@@ -13,8 +13,10 @@
         <!--including jquery style sheet-->
         <link rel="stylesheet" type="text/css" href="jQureryMobile/jquery.mobile-1.4.5.min.css">
         
-        <link rel="stylesheet" type="text/css" href="styleSheet.css" />
-        <meta charset="utf-8" />
+        <!--customize theme-->
+        <link rel="stylesheet" href="themes/themeAns.min.css" />
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+         <link rel="stylesheet" type="text/css" href="styleSheet.css" />
         <title></title>
     </head>
     <body>
@@ -165,8 +167,8 @@
                     analogs during a reaction 
                     may be obtained using Time resolved crystallography methods.</p>
                 <div data-role="collapsible-set">
-                <div data-role="collapsible">
-                <h1>Mechanisms</h1>
+                <div data-role="collapsible" class="ui-mini">
+                <h2>Mechanisms</h2>
                     <p>Enzymes can act in several ways, all of which lower ΔG‡ (Gibbs energy):</p>
                     <ol data-role="listview">
                     <li><p>Lowering the activation energy by creating an environment in which the <br>
@@ -194,8 +196,8 @@
                             ground state, and its contribution to catalysis is relatively small.</p></li>
                     </ol>
                 </div>
-                    <div data-role="collapsible">
-                    <h1>Specificity</h1>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Specificity</h2>
                         <p>Enzymes are usually very specific as to which reactions they catalyze and the
                              substrates that are involved in these reactions. Complementary shape, charge and 
                             hydrophilic/hydrophobic characteristics of enzymes and substrates are responsible 
@@ -218,15 +220,15 @@
                             for the evolutionary selection of a new function; this phenomenon 
                             is known as enzyme promiscuity.</p>
                     </div>
-                    <div data-role="collapsible">
-                    <h1>Lock and Key Model</h1>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Lock and Key Model</h2>
                         <p>This is the simplest model to represent how an enzyme works. 
                             The substrate simply fits into the active 
                             site to form a reaction intermediate.</p>
                         <img alt="lockandkey" src="lockandkey2.png">
                     </div>
-                    <div data-role="collapsible">
-                    <h1>Induced Fit Hypothesis</h1>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Induced Fit Hypothesis</h2>
                         <p>In this model the enzyme molecule changes shape as the substrate 
                             molecules gets close. The change in shape is 'induced' by the 
                             approaching substrate molecule. This more sophisticated 
@@ -291,8 +293,8 @@
                     the DNA polymerases; 
                     here the holoenzyme is the complete complex containing all the 
                     subunits needed for activity.</p>
-                <div data-role="collapsible" id="coenzymes" data-collapsed="false">
-                <h1>Coenzymes</h1>
+                <div data-role="collapsible" id="coenzymes" class="ui-mini" data-collapsed="false">
+                <h2>Coenzymes</h2>
                     <p>Coenzymes are small organic molecules that can be loosely or tightly bound 
                         to an enzyme. Tightly bound coenzymes can be called prosthetic groups. 
                         Coenzymes transport chemical groups from one enzyme to another. 
@@ -498,8 +500,8 @@
                     </ul>
                     
 <div data-role="collapsible-set">
-    <div data-role="collapsible" data-collapsed="false">
-    <h1>Reversible Inhibitors</h1>
+    <div data-role="collapsible" data-collapsed="false" class="ui-mini">
+    <h2>Reversible Inhibitors</h2>
         <p>Reversible inhibitors attach to enzymes with non-covalent interactions 
             such as hydrogen bonds, hydrophobic interactions and ionic bonds. 
             Multiple weak bonds between the inhibitor and the active site combine 
@@ -510,8 +512,8 @@
         <p>There are four kinds of reversible enzyme inhibitors. 
             They are classified according to the effect of varying 
             the concentration of the enzyme's substrate on the inhibitor.</p>
-        <div data-role="collapsible">
-        <h1>Competitive Inhibition</h1>
+        <div data-role="collapsible" class="ui-mini">
+        <h2>Competitive Inhibition</h2>
             <p>In competitive inhibition, the inhibitor and substrate compete for 
                 the enzyme (i.e., they can not bind at the same time). 
                 Often competitive inhibitors strongly resemble the real substrate 
@@ -532,15 +534,15 @@
                 but higher substrate concentrations are required to reach a given maximum 
                 rate, increasing the apparent Km.</p>
         </div>
-        <div data-role="collapsible">
-        <h1>Uncompetitive Inhibition</h1>
+        <div data-role="collapsible" class="ui-mini">
+        <h2>Uncompetitive Inhibition</h2>
             <p>In uncompetitive inhibition, the inhibitor cannot bind to the 
                 free enzyme, only to the ES-complex. The EIS-complex thus 
                 formed is enzymatically inactive. This type of inhibition 
                 is rare, but may occur in multimeric enzymes.</p>
         </div>
-        <div data-role="collapsible">
-        <h1>Non-competitive Inhibition</h1>
+        <div data-role="collapsible" class="ui-mini">
+        <h2>Non-competitive Inhibition</h2>
             <p>Non-competitive inhibitors can bind to the enzyme at the binding 
                 site at the same time as the substrate, but not to the active site. 
                 Both the EI and EIS complexes are enzymatically inactive. 
@@ -549,8 +551,8 @@
                 the apparent Vmax changes. But because the substrate can still bind 
                 to the enzyme, the Km stays the same.</p>
         </div>
-        <div data-role="collapsible">
-        <h1>Mixed Inhibition</h1>
+        <div data-role="collapsible" class="ui-mini">
+        <h2>Mixed Inhibition</h2>
             <p>This type of inhibition resembles the non-competitive, except that the
                  EIS-complex has residual enzymatic activity.This type of inhibitor 
                 does not follow Michaelis-Menten equation.</p>
@@ -567,8 +569,8 @@
         </div>
         <p><img alt="inhibitors" src="inhibition.png"> </p>
     </div>
-    <div data-role="collapsible">
-    <h1>Irreversible inhibitors</h1>
+    <div data-role="collapsible" class="ui-mini">
+    <h2>Irreversible inhibitors</h2>
         <p>Irreversible inhibitors usually covalently modify an enzyme, 
             and inhibition can therefore not be reversed. 
             Irreversible inhibitors often contain reactive functional groups 
@@ -588,8 +590,8 @@
             heating in concentrated hydrochloric acid will hydrolyse the peptide bonds 
             holding proteins together, releasing free amino acids.</p>
     </div>
-    <div data-role="collapsible">
-    <h1>Uses of inhibitors</h1>
+    <div data-role="collapsible" class="ui-mini">
+    <h2>Uses of inhibitors</h2>
         <p>Since inhibitors modulate the function of enzymes they are often used as drugs. 
             A common example of an inhibitor that is used as a drug is aspirin, which 
             inhibits the COX-1 and COX-2 enzymes that produce the inflammation messenger 
@@ -599,8 +601,8 @@
             of the enzyme cytochrome c oxidase and blocks cellular respiration.</p>
     </div>
 </div>
-<div data-role="collapsible" data-collapsed="=false">
-<h1>Enzyme Activator</h1>
+<div data-role="collapsible" class="ui-mini" data-collapsed="=false">
+<h2>Enzyme Activator</h2>
     <p>Enzyme activators are molecules that bind to enzymes and increase their activity. 
         They are the opposite of enzyme inhibitors. These molecules are often involved 
         in the allosteric regulation of enzymes in the control of metabolism. 
@@ -638,8 +640,8 @@
         </div>
             <div data-role="main" class="ui-content">
             <div data-role="collapsible-set">
-            <div data-role="collapsible" data-collapsed="false">
-            <h1>Tempreture</h1>
+            <div data-role="collapsible" class="ui-mini" data-collapsed="false">
+            <h2>Tempreture</h2>
                 <img alt="tempreture" src="tempreture.png">
                 <p>As the temperature rises, reacting molecules have more and more 
                     kinetic energy. This increases the chances of a successful collision 
@@ -652,8 +654,8 @@
                     since at higher temperatures intra- and intermolecular bonds are 
                     broken as the enzyme molecules gain even more kinetic energy.</p>
             </div>
-                <div data-role="collapsible">
-            <h1>pH</h1>
+                <div data-role="collapsible" class="ui-mini">
+            <h2>pH</h2>
                 <img alt="tempreture" src="ph.png">
                     <p>Each enzyme works within quite a small pH range. 
                         There is a pH at which its activity is greatest (the optimal pH). 
@@ -661,21 +663,21 @@
                         intermolecular bonds, changing the shape of the enzyme and, 
                         therefore, its effectiveness.</p>
                     </div>
-                <div data-role="collapsible">
-                <h1>Concentration of Enzyme and Substrate</h1>
+                <div data-role="collapsible" class="ui-mini">
+                <h2>Concentration of Enzyme and Substrate</h2>
                     <p>The rate of an enzyme-catalysed reaction depends on the concentrations of enzyme and substrate. 
                         As the concentration of either is increased the rate of reaction 
-                        increases (see graphs).</p>
+                        increases.</p>
                     <p>For a given enzyme concentration, the rate of reaction increases with increasing substrate 
                         concentration up to a point, above which any further increase in 
                         substrate concentration produces no significant change in reaction 
                         rate. This is because the active sites of the enzyme molecules at 
                         any given moment are virtually saturated with substrate. 
                         The enzyme/substrate complex has to dissociate before the active 
-                        sites are free to accommodate more substrate. (See graph)</p>
+                        sites are free to accommodate more substrate.</p>
                     <p>Provided that the substrate concentration is high and that temperature 
                         and pH are kept constant, the rate of reaction is proportional to 
-                        the enzyme concentration. (See graph)</p>
+                        the enzyme concentration.</p>
                 </div>
             </div>
             

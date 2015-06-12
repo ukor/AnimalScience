@@ -867,7 +867,7 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f07000e;
+        public static final int abc_search_url_text_holo=0x7f07000f;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
@@ -880,6 +880,7 @@ containing a value of this type.
         public static final int list_divider=0x7f07000d;
         public static final int list_focus=0x7f070009;
         public static final int list_item_title=0x7f070004;
+        public static final int splash_color=0x7f07000e;
         public static final int text_color=0x7f07000a;
         public static final int ukor_splash=0x7f070008;
     }
@@ -1099,22 +1100,24 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int alert_bghdpi=0x7f020057;
         public static final int alert_bgxxhdpi=0x7f020058;
-        public static final int counterbg=0x7f020059;
-        public static final int drawer_shadow=0x7f02005a;
-        public static final int ic_action_about=0x7f02005b;
-        public static final int ic_action_help=0x7f02005c;
-        public static final int ic_action_make_available_offline=0x7f02005d;
-        public static final int ic_action_secure=0x7f02005e;
-        public static final int ic_action_settings=0x7f02005f;
-        public static final int ic_action_warning=0x7f020060;
-        public static final int ic_drawer=0x7f020061;
-        public static final int ic_greenbuttonhdpi=0x7f020062;
-        public static final int ic_greenbuttonxxhdpi=0x7f020063;
-        public static final int ic_launcher=0x7f020064;
-        public static final int list_item_bg_nomal=0x7f020065;
-        public static final int list_item_bg_pressed=0x7f020066;
-        public static final int list_selector=0x7f020067;
-        public static final int ukor=0x7f020068;
+        public static final int anssplash=0x7f020059;
+        public static final int counterbg=0x7f02005a;
+        public static final int drawer_shadow=0x7f02005b;
+        public static final int ic_action_about=0x7f02005c;
+        public static final int ic_action_help=0x7f02005d;
+        public static final int ic_action_make_available_offline=0x7f02005e;
+        public static final int ic_action_secure=0x7f02005f;
+        public static final int ic_action_settings=0x7f020060;
+        public static final int ic_action_warning=0x7f020061;
+        public static final int ic_drawer=0x7f020062;
+        public static final int ic_greenbuttonhdpi=0x7f020063;
+        public static final int ic_greenbuttonxxhdpi=0x7f020064;
+        public static final int ic_launcher=0x7f020065;
+        public static final int list_item_bg_nomal=0x7f020066;
+        public static final int list_item_bg_pressed=0x7f020067;
+        public static final int list_selector=0x7f020068;
+        public static final int ukor=0x7f020069;
+        public static final int ukorsplash2=0x7f02006a;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1297,18 +1300,17 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
-        public static final int about=0x7f0a0014;
-        public static final int action_settings=0x7f0a000f;
+        public static final int about=0x7f0a0013;
+        public static final int action_settings=0x7f0a000e;
         public static final int app_name=0x7f0a000d;
-        public static final int desc=0x7f0a0016;
+        public static final int desc=0x7f0a0015;
         /**  Content Description 
          */
-        public static final int desc_list_item_icon=0x7f0a0015;
-        public static final int developer=0x7f0a0010;
-        public static final int disclaimer=0x7f0a0013;
-        public static final int hello_world=0x7f0a000e;
-        public static final int img_discription=0x7f0a0011;
-        public static final int licenses=0x7f0a0012;
+        public static final int desc_list_item_icon=0x7f0a0014;
+        public static final int developer=0x7f0a000f;
+        public static final int disclaimer=0x7f0a0012;
+        public static final int img_discription=0x7f0a0010;
+        public static final int licenses=0x7f0a0011;
     }
     public static final class style {
         /** 

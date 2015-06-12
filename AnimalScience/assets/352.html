@@ -1,25 +1,1993 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head id="head">
-        <link rel="stylesheet" type="text/css" href="styleSheet.css" />
+    <head>
+         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8" />
-        <title></title>
+        <link rel="stylesheet" type="text/css" href="styleSheet.css" />
+        <link rel="stylesheet" type="text/css" href="home.css" />
+        <script src="jquery-1.11.1.min.js"></script>
+        <!--include jquery labrary-->
+        <script src="jQureryMobile/jquery.mobile-1.4.5.min.js"></script>
+        <!--including jquery style sheet-->
+        <link rel="stylesheet" type="text/css" href="jQureryMobile/jquery.mobile-1.4.5.min.css">
+        
+        <!--customize theme-->
+        <link rel="stylesheet" href="themes/themeAns.min.css" />
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+         <link rel="stylesheet" type="text/css" href="styleSheet.css" />
+        <title>Animal Genetics and Breeding ANS 352</title>
     </head>
     <body>
-        <table>
-            
-        <tr>
-        <td>
-            <div id="main">
-             <h1>animal genetics and breeding [ans 352]</h1>
-        
-        
-        </div>
-        </td>
-        </tr>
+       <div data-role="page" id="352"><!--352 page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>ANIAMAL GENETICS AND BREEDING [ANS 352]</h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
               
-        </table>
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br> Genetics</a></li>
+                   <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+        <p>History of genetics chromosome; structure, number and variations. Gene and genotype. Genetic code,
+        fundemental principles of inheritance, quantitative and qualitative characters and their inheritance.
+         Differences, gene actions values and means repeatability, heritability, etc, animal variation and 
+            selection principle. Breeding and enviromental effect of in-breeding, pure line breeding, cross 
+            breeding and other breeding methods. </p>
+        </div>
+           <div data-role="footer">
+           <h2>Animal Genetics and Breeding - Creative Commons Attribution-NonCommercial 4.0
+                 International License.</h2>
+           </div>
+           </div><!--page ends-->
+<!--============animal gentics-->
+
+
+        <div data-role="page" id="geneticsIntro"><!--geneticsintro page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>ANIAMAL GENETICS - Introduction </h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
+              
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br>Genetics</a></li>
+                  <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+        <p>Genetics is a word from the Ancient Greek “genetikos” meaning “generative”, it is from the word Genesis meaning Origin.</p>
+                <p>Genetics is the study of genetic components, heredity and variation in living organisms.</p>
+                <p>Genetic component refers to everything that has to do with the genes; its function behavior, structure, variation and distribution within the context of the cell. It involves the chromosomes, the DNA, RNA and proteins involved with the genes.</p>
+                <p>Heredity means inheritance of traits, this refers to how traits or characters are transferred from parents to their offspring.</p>
+                <p>Variation refers to the differences and similarities that occur in living organism.</p>
+                <p>These three combined makes what we have today as genetics.</p>
+                <br>
+                <h3>Branches of Genetics</h3>
+                <p>Since the beginning of the formulation of theories which makes todays genetic, it has developed so many branches, some of which are as follows;</p>
+                <dl>
+                <dt>Cytogenetics</dt>
+                    <dd>This is the study of the physical basis of heredity.</dd>
+                 <dt>Molecular Genetics</dt>
+                    <dd>This is the study of the chemical basis of heredity. It is divided into; <strong>Genomics: </strong><i>this is the study of the genes of organisms and </i><strong>Proteomics:</strong><i> this is the study of the proteins coming from DNA translation.</i></dd>
+                <dt>Classical Genetics</dt>
+                    <dd>This is the study of the analysis of offspring resulting from mating of parents.</dd>
+                <dt>Population Genetics</dt>
+                    <dd>This deals with the transmission of traits within a large group of individual through a passage of time</dd>
+                <dt>Behavioural Genetics</dt>
+                    <dd>This is the study of behavior of an organism</dd>
+                </dl>
+
+        </div>
+
+            </div><!--page ends-->
+        <!--=====================================history of genetics=====================================================-->
+         <div data-role="page" id="history"><!--history of genetics page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>History of Genetics</h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
+              
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br> Genetics</a></li>
+                   <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+        <div data-role="collapsible-set">
+        <div data-role="collapsible" class="ui-mini">
+        <h2>  Hippocrates (5th century BCE)</h2>
+            <p>The first major theory of genetics was hypothesized by Hippocrates in fifth century B.C.E. Hippocrates’ theory is known as the “bricks and mortar” theory of genetics and states that hereditary material consists of physical substances originating from each part of the body and is concentrated in the male semen, which develops into a human within the womb. Further, he believed that physical characteristics are “acquired.” For example, a champion weight lifter who develops large biceps through training has “big bicep” parts, which would be passed to the lifter’s offspring through his sperm and result in a big-bicepped child</p>
+
+        </div>
+            <div data-role="collapsible" class="ui-mini">
+            <h2>Arstotle (384 - 322 BCE)</h2>
+                <p>A generation after Hippocrates theory, Aristotle criticized this theory.</p>
+                <p>His first objection was that mutilated and physically handicapped people can have normal children.  Aristotle’s Second objection was that people can transmit characteristics that they do not show at conception but develop at a later age. Think of gray hair or male pattern baldness. At the time of conception, most Greeks of the period would have brown to black hair and only a few would exhibit pattern baldness. Hence, there are no “gray hair parts” and few “baldness parts” although much later in life those “body parts” might be available. Still parents can transmit these traits to their offspring. </p>
+                <p>Aristotle went on to reject the bricks and mortar model of heredity transmission. Instead, he proposed that heredity involved the transmission of information i.e a “blueprint model.” This Remarkable insight was ignored until the middle of the 20th century. All Subsequent theories were based on the bricks and mortar model.</p>
+            </div>
+            <div data-role="collapsible" class="ui-mini">
+            <h2>Linnaeus (1707 –1778)</h2>
+                <p>Carl von Linné, better known by his Latinized surname, Linnaeus, was a Swedish physician and biologist, concerned with the classification of biological entities, a scientific enterprise of great popularity at the time. In 1735, he published the first edition of Systema Naturae  that, in its brief 11 pages, provided the seeds for modern biological classification. His major contribution was not the organisms that Linnaeus classified. Rather, he established a set of rules for classification that gradually became universally accepted.</p>
+                <p>There are several salient aspects of the Linnaean system. First, it is binomial (two names). In this system, an organism is referred to by two names—its genus and species—using Latin (but sometimes Greek) roots. Hence, we humans are <i>Homo sapiens</i> (wise man) and your pet cat is a member of <i>Felis catus</i> (cunning cat). Second, the system was based largely on external morphology. Third, the system was hierarchical. That is, species X is more closely related to species Y than to species Z if it looks more like Y than Z. An ant and a termite will be classified closer in the hierarchy than either would be with an elephant. Along with the biologists of his time, Linnaeus believed in the biblical account of creation. Hence, he viewed species as being created and then remaining fixed and immutable.</p>
+            </div>
+            <div data-role="collapsible" class="ui-mini">
+            <h2>Lamarck (1744 – 1829)</h2>
+                <p>Later in the late 18th century, French naturalist Jean-Baptiste Lamarck proposed the first comprehensive theory of evolution. Although Linnaeus held the traditional opinion that species were created with certain traits that never changed, Lamarck contradicted the creationist belief that species were immutable; he claimed that species change in response to their environments by inheriting characteristics that their parents acquire over their lifetimes. For example, for a giraffe to reach leaves to eat off a tall tree, it would have to stretch its neck. Because giraffes need to eat leaves, the giraffes that acquired longer necks from stretching would be able to pass on their modified neck lengths to their offspring and eventually contribute to a new characteristic to the entire giraffe species.</p>
+            </div>
+            <div data-role="collapsible" class="ui-mini">
+            <h2>Charles Darwin(1809 - 1892)</h2>
+                <p>While a student, Charles Darwin was selected to serve as the “naturalist” on board the ship HMS Beagle on a voyage to map the waters along South America’s coast. By recording extensive observations, Darwin developed his theory of natural selection, the major mechanism of evolution. Natural selection states that genetic differences can make individuals more or less suited for their environment. Those who are better suited survive go on to produce offspring, making the favorable traits characteristic of the population over time; those species with less favorable traits face extinction. Upon returning from his expedition, Darwin spent over twenty years collecting data and writing to publish his theories in his book On the Origin of Species in 1859. The reaction to Origin at publication was “immediate, international, and intense but also mixed” across both scientific and religious communities, as evolution contradicted the widely accepted principles of creationism . Continuing with his studies, Darwin attempted to explain the mechanism for natural selection in 1868 by proposing his theory of “pangenesis”—an updated version of Hippocrates’ brick and mortar approach. Pangenesis dictates that both mother and father secrete “gemmules” which aggregate in reproductive organs and combine to form the embryo. However, the setback to pangenesis was that after generations of blending within a population, members would be genetically identical, lacking variation and inhibiting natural selection.</p>
+            <h3>Darwin Five Theories</h3>
+                <ol>
+                <li>The organism steadily evolve overtime (evolution theory)</li>
+                    <li>Different kinds of organisms descend from a common ancestor (common descent theory)</li>
+                    <li>Species multiply over time (Speciation theory)</li>
+                    <li>Evolution takes place through the gradual change of population</li>
+                    <li>The mechanism of evolution is the competition among vast numbers of unique individuals for limited resources under selective pressures which leads to differences in survival and reproduction (natural selection theory)</li>
+
+                </ol>
+            </div>
+            <div data-role="collapsible" class="ui-mini">
+            <h2>Gregor Mendel (1822 - 1884)</h2>
+                <p>Gregor Mendel was an Austrian monk living in an Augustinian monastery in Brüun (or Brno) in what is now the Czech Republic but at the time called Moravia. He was fortunate in having an abbot who encouraged intellectual and research pursuits, and spent his early years mastering mathematics, physics and chemistry. Later, he became particularly interested in the study of hybrids, a “hot topic” in biology at the time.</p>
+                <p>The mechanism of natural selection was illustrated by his research  in 1864. By studying pea plantts, he proposed that inheritance came about by transmission of discrete units, known as “alleles”, rather than through blending. He said that in reproduction both the mother and father contribute a unit of their own traits, and the offspring inherits one of them perfectly intact and is free from influence of the other. Although Mendel published in 1864, the scientific community largely ignored his research, and the significance of his work was not realized until 1900 when several scientists discovered that their own findings lined up perfectly with those of Mendel.</p>
+                <h3>Mendel worked on seven characters in the garden peas</h3>
+                <ul>
+                    <li>Seed shape – Round / Wrinkled</li>
+                    <li>Seed colour – Yellow / Green</li>
+                    <li>Flower colour – Purple / White</li>
+                    <li>Pod Shape – Inflated / Constricted</li>
+                    <li>Pod colour – Green / Yellow</li>
+                    <li>Flower position – Axial / Terminal</li>
+                    <li>Stem height – Tall / Dwarf</li>
+                </ul>
+            </div>
+            <div data-role="collapsible" class="ui-mini">
+            <h2>Post Mendelian</h2>
+                <p>In 1900, Mendel’s results were independently replicated by three people: the Dutch botanist Hugo de Vries, the Austrian Erich von Tschermak, and the German Carl Correns . Mendel’s work had been sporadically cited between its date of publication and 1900, but nobody seriously considered its implications. It is more correct to say that 1900 was the year in which Mendel was finally appreciated. Around the same time, the English biologist William Bateson read Mendel and became an enthusiastic advocate. He translated Mendel into English and dubbed the new field “genetics,” a term already in use but in the vague sense as something pertaining to origins. He also introduced the terms allele, zygote, heterozygote, and homozygote. In 1904, he along with Reginald Punnett (who gave us the eponymous square) described genetic linkage.</p>
+                <p>The work in Thomas Hunt Morgan’s lab from 1910 through 1914 firmly united the Mendelian and Early Cell Biology lines of inquiry. Using fruit flies (Drosophila), Morgan and his collaborators proposed that genes were linearly arranged on the chromosome, giving us the “beads on a string” model of the genome. They also demonstrated sex linkage and identified the sex chromosomes. In Morgan’s lab, Alfred Sturtevant produced the first genetic map. Things did not go so smoothly with the Darwinian trend. Karl Pearson and his colleague Raphael Weldon, held that Mendel’s theory is fine for qualitative/discrete traits like yellow versus green pea seed color but could not account for continuous variation. Continuous variation involved traits like height (we all have height but we all possess different amounts of it). They suspected that there were other mechanisms involved in hereditary transmission besides Mendel’s units.</p>
+                <p>The Mendelists, especially the aforementioned William Bateson, vigorously disagreed, some going so far as to claim that obvious continuous traits like bristle number on a fly actually fell into two categories, few and many. The situation was finally resolved in 1918 when Ronald Fisher published a classic paper, <i>The correlation between relatives in the supposition of Mendelian inheritance.</i> Here, Fisher demonstrated that a Mendelian inheritance could account for continuous variation when a number of genes contributed to a trait and the effect of each individual gene was small.</p>
+            </div>
+        </div><!--collapsible-set close-->
+                <br class="break">
+                <div data-role="collapsible" class="ui-mini">
+                <h2>Application of Genetics</h2>
+                    <p>Genetics is applied in the following areas:</p>
+                    <dl>
+                    <dt>Agriculture</dt>
+                        <dd>This produces genetically modified plants and animal</dd>
+                        <dt>Medicine</dt>
+                        <dd>Detection of hereditary diseases</dd>
+                        <dt>Pharmaceutical Industry</dt>
+                        <dd>Production of drugs e.g insulin</dd>
+                        <dt>Genetic Counseling</dt>
+                        <dd>Counseling of prospective parents</dd>
+                        <dt>Legal application/Forensic</dt>
+                        <dd>For solving crimes - fingerprinting</dd>
+                    </dl>
+                </div>
+        </div>
+           <div data-role="footer">
+           <!--footer note goes here-->
+           </div>
+           </div><!--page ends-->
+ <!--==================================================================cell cycle=====================================-->
+         <div data-role="page" id="cellcycle"><!--cell cycle page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>Cell Cycle</h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
+              
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br> Genetics</a></li>
+                   <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+        <p>There are two main parts to the cell cycle: Interphase, which is for growth and preparation, and cell division, which includes mitosis and cytokinesis.</p>
+               
+                <div data-role="collapsible" class="ui-mini">
+                <h2>Interphase</h2>
+                    <p>Interphase occurs between divisions, and is the longest phase in the cell cycle. This usually makes up about 90% of the time spent in the cell cycle. This is not a “resting” period, but time for preparation. This is when the cell grows and prepares for division.</p>
+                    <h3>G1</h3>
+                    <p>This is the period where the cell grows and develops. Since some cells divide more actively than others, the time spent in the G1 phase will vary. There is no division that takes place in this phase, just growth and development. </p>
+                    <h3>S</h3>
+                    <p>This is where the cell is committed to cell division. Inside the nucleus, the chromosomes (including the DNA) begin to replicate, the material makes a copy of itself (one more chromosome in a minute). This results in two identical copies of chromosomes, called sister chromatids. The two sister chromatids are attached to each other at a point celled the centromere. This replication is important, because it allows there to be two full sets of DNA in each of the new cells, at the end of the division.</p>
+                    <h3>G2</h3>
+                    <p>Organelles and other material required for cell division are replicated or formed. For example, the centrioles in animal cells replicate themselves, to form 2 pairs.</p>
+                </div>
+                <p>Cell division includes <strong>mitosis and cytokenesis</strong></p>
+        </div>
+           <div data-role="footer">
+           <!--footer content goes here-->
+           </div>
+           </div><!--page ends-->
+
+<!--========================================mitosis===================================================-->
+         <div data-role="page" id="mitosis"><!--mitosis page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>Mitosis</h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
+              
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br> Genetics</a></li>
+                   <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="#Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+        <p>Mitosis is the portion of the cell cycle when the cells nucleus is replicated and divided into two identical nuclei containing genetically identical material. This type of cell division is for growth, repair and asexual reproduction. Mitosis forms somatic cells, which are also referred to as the cells of the body (having a 2n or diploid number of chromosomes). This is the type of cell division all of the cells in the body do except for those responsible for “sex cell” production. There are 4 main phases in mitosis.</p>
+                <div data-role="collapsible-set">
+                <div data-role="collapsible" class="ui-mini">
+                <h2>Prophase</h2>
+                    <p>This is the first stage of mitosis. In this stage the sister chromatids also condense to a visible form. The nuclear envelope also breaks up, exposing the chromosomes. The spindle fibers begin to form, extending from the centrioles. These are made up of microtubules and attach to the centromere of the sister chromatids. The centrioles slowly migrate to opposite sides of the cell.</p>
+                </div>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Metaphase</h2>
+                        <p>This is when the chromosomes are lined up along the metaphase or equatorial plate, an imaginary line in the center of the cell. The chromosomes are moved here with the help of the spindle fibers and the centrioles.</p>
+                    </div>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Anaphase</h2>
+                        <p>The centromere of each chromosome are pulled apart by the spindle fibers, causing the sister chromatids to separate, creating two daughter chromosomes. One of the daughter chromosomes is pulled to one side of the cell, while the other is pulled to the opposite pole. This process is critical, because it ensures that the soon to be daughter cells will each have full, identical sets of chromosomes, also being identical to the parent cell.</p>
+                    </div>
+                    <div data-role="collapsible"class="ui-mini">
+                    <h2>Telophase</h2>
+                        <p>The new neclei begin to form around the new sets of chromosomes, at each end of the cell. The chromosomes also begin to unravel, back into their loose form. By the end of this phase, the spindle fibers are also dissasembled.</p>
+                    </div>
+                </div><!--collasible set close-->
+                <hr class="break">
+                <p>At the same time, <strong>cytokinesis </strong>begins, and the cell is “pinched” into tow new cells. As mitosis comes to an end, the two new nuclei must end up in two new cells; this is where cytokenesis comes in;</p>
+        <div data-role="collapsible" class="ui-mini">
+        <h2>Cytokinesis</h2>
+            <p>is when the cell’s cytoplasm divides into two, making two new cells called daughter cells. Each of these new cells receives one of the new nuclei, making the daughter cells genetically identical to the parent cell. Animal cells and plant cells complete mitosis and cytokinesis differently.</p>
+        </div>
+                <hr class="break">
+                <p>As far as an animal cell is concerned, the cytoplasm “pinches” the cell into two daughter cells, right down the center of the parent cell, until there are two separate daughter cells. However, in plants, a cell plate begins to form along the center of the cell, this then fuses with the cell membrane and cell wall, cutting the cell into two.</p>
+            </div>
+           <div data-role="footer">
+           <!--footer content goes here-->
+           </div>
+           </div><!--page ends-->
+ <!---=============== MEIOSIS=============================================================-->
+         <div data-role="page" id="Meiosis"><!--meiosis page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>MEIOSIS</h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
+              
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br> Genetics</a></li>
+                   <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="#Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+        <p>This is the formation of gametes, performed by reproductive cells only. This will result in a reduction of the chromosome number, forming haploid cells (n). So, unlike mitosis, which produces two daughter cells with identical chromosomes, meiosis produces 4 daughter cells, each with half the number of chromosomes, that are not identical to each other. This is again important because it keeps the chromosome number constant over generations, in the adult organism. When the egg (n) and the sperm (n) combine (n + n) in fertilization, the offspring is a diploid cell (2n).</p>
+                <p>Meiosis is divided into two stages: the meiosis I and meiosis II</p>
+                <hr class="break">
+                <h3>Meiosis I</h3>
+                <p>is a 4 step process. The start of this is much like mitosis, the cells have gone through the G1, S and G2 phases, thus the DNA has been replicated and are in the form of sister chromatids, connected at the centromere. The main difference here is that the homologous pairs of chromosomes pair up and then proceed as follows.</p>
+                <div data-role="collapsible-set">
+                <div data-role="collapsible" class="ui-mini">
+                <h2>Prophase I</h2>
+                    <p>the chromosomes thicken and are visible under a microscope. The homologous pairs of chromosomes are tangled together and being to move towards the equatorial plate. This means that instead of two sister chromatids like in mitosis, there are now 4 sister chromatids that move together, this is called a tetrad. This is also where the nuclear envelope disappears and the spindle fibers begin to form. This is also the phase where crossingover can occur. Due to the way the homologous pairs of chromosomes are tangled together, many times, they “swap” parts of their chromosomes. This is a major source to the addition to the variation between individuals. It is this variation that allows evolution to act on favorable traits, having those that are more favorable survive and the others die off.</p>
+                </div>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Metaphase I</h2>
+                        <p>This is where the homologous pairs are lined up next to each other, along the equatorial plate.</p>
+                    </div>
+                    <div data-role="collapsible" class="ui-mini">
+                        <h2>Anaphase I</h2>
+                    <p>The homologous pairs are now separated, due to the spindle fibers pulling them apart, from the centromere. Each chromosome still has two sister chromatids.</p>
+                    </div>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Telophase I</h2>
+                        <p>The nuclear membrane may or may not reform, depending on the species, but in any case, cytokinesis does occur, resulting in two new cells, each with the haploid number of chromosomes, which are still in the form of sister chromatids.</p>
+                    </div>
+                   
+                </div><!--collapsible set close-->
+                <hr class="break">
+                <h3>Meiosis II</h3>
+                <p>Is what follows after telophase I and cytokinesis. The daughter cells from meiosis I are what go into this phase. They divide again, but this time occurring much the same as mitosis. The only difference is that there are n number of chromosomes rather than 2n, and we end up with a total of 4 daughter cells rather than 2. Again, since there were two daughter cells produced in meiosis I, and each of them divide again, the result of meiosis is 4 daughter cells, each with n number of chromosomes, which are not identical to the original parent cell or each other. This is done through 4 more steps: prophase II, metaphase II, anaphase II and telophase II, followed by the final cytokinesis.</p>
         
+            </div>
+           <div data-role="footer">
+           
+           </div>
+           </div><!--page ends-->
+<!--============================================CHROMOSOME===========================================================-->
+         <div data-role="page" id="chromosome"><!--chromosome page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>Chromosome</h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
+              
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br> Genetics</a></li>
+                   <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="#Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+        <p>Chromosomes are threadlike materials that can be seen within the nucleus of a cell (i.e they are physical structures) when stained at proper stage of cell division. It is a single piece of coiled DNA containing many genes, regulatory elements and other nucleotide sequences. Chromosomes also contain DNA-bound proteins, which serve to package the DNA and control its functions.</p>
+                <p>Chromosomes got their names from their special affinity for basic stains. The word means “coloured bodies” and this has helped in their study. They have been described as deeply staining bodies into which the nucleus revolves during cell division. Cytologist found that chromosomes at certain stages and at low magnification are just dark little rods of various sizes. However at different stages of cell division and higher magnification they are found to be more complex.</p>
+                <h3>Brief History of the discovery of the chromosome</h3>
+                <p>Walther Flemming was a German biologist and a founder of cytogenetics, he  discovered the chromosome. Flemming was one of the first to devote his time to cytology, the study of chromosomes. Cell division had been described as early as 1842 by Carl Nageli, who thought it was an anomalous event. Flemming was the first to detail the chromosomal movements in the process of mitosis. In 1879, Flemming used aniline dyes, a by-product of coal tar, to stain cells of salamander embryos. He was able to visualize the threadlike material as the cells divide he termed it the chromatin, or "stainable material." (Flemming had actually discovered the chromosome, although the term would be coined a few years later by Heinrich Waldeyer in 1888.). He described the whole process in his book Zell-substanz, Kern und Zelltheilung (Cell-Substance, Nucleus, and Cell-Division), which was published in 1882. Much of what we know today about mitosis originated with Flemming's observations. He saw that chromosomes were "doubled" when they appeared in prophase, and "solved" the problem of chromosomal partitioning between mother and daughter cells. This was significant for later work in meiosis and the chromosomal theory of inheritance. The process of meiosis was discovered by August Weismann in 1890 who noted that two cell divisions were necessary to transform one diploid cell into four haploid cells if the number of chromosomes had to be maintained.</p>
+                <p>The chromosome theory of inheritance was not the work of a single scientist, but rather the collaborative result of multiple researchers working over multiple decades. The seeds of this theory were first planted in the 1860s, when Gregor Mendel and Charles Darwin each proposed possible systems of heredity. It wasn't until several decades later, following Walther Flemming's discovery of chromosomes and description of their behavior during mitosis, that a probable mechanism for the transmission of traits was identified. The idea of a connection between chromosomes and heredity was subsequently strengthened by research conducted by Theodor Boveri  through his research of early development in the roundworm species <i>Ascaris megalocephala</i> (now known as <i>Parascaris equorum</i>)  in 1888 and Walter Sutton in 1902 in his work on meiosis in the testes of the lubber grasshopper, <i>Brachystola magna</i>, but direct evidence in support of chromosome theory didn't come until Thomas Hunt Morgan's experiments with fruit flies at dawn of the twentieth century. Thus, after nearly 50 years of speculation, scientists were finally able to confirm what they had long suspected: that chromosomes were indeed the physical carriers of hereditary information.</p>
+        
+            </div>
+           <div data-role="footer">
+           
+           </div>
+           </div><!--page ends-->
+<!--=================================STRUCTURE OF CHROMOSOME==========================-->
+         <div data-role="page" id="chromosomeStructure"><!--structure of the chromosome page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>structure of <br> the chromosome</h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
+              
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br> Genetics</a></li>
+                   <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="#Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+        <p>Each chromosome has a constriction point called the centromere, which divides the chromosome into two sections, or “arms.” The short arm of the chromosome is labeled the “p arm.” The long arm of the chromosome is labeled the “q arm.” The location of the centromere on each chromosome gives the chromosome its characteristic shape, and can be used to help describe the location of specific genes.</p>
+        
+            <h3>Centromere</h3>
+            <p>A centromere is a region of DNA typically found near the middle of a chromosome where two identical sister chromatids come closest in contact. It is involved in cell division as the point of mitotic spindle attachment. The sister chromatids are attached all along their length, but they are closest at the centromere. Centromeres help to keep chromosomes properly aligned during the complex process of cell division. As chromosomes are copied in preparation for production of a new cell, the centromere serves as an attachment site for the two halves of each replicated chromosome (sister chromatids).</p>
+                <div data-role="collapsible-set">
+                <div data-role="collapsible"class="ui-mini">
+                <h2>Metacentric</h2>
+                    <p>A chromosome is metacentric if its two arms of the chromatid are roughly equal in length.</p>
+                </div>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Submetacentric</h2>
+                        <p>If arms' lengths of the chromatid are unequal, the chromosome is said to be submetacentric</p>
+                    </div>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Acrocentric</h2>
+                        <p>If the p (short) arm of the chromatid is so short that is hard to observe, but still present, then the chromosome is acrocentric</p>
+                    </div>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Telocentric</h2>
+                        <p>A telocentric chromosome's centromere is located at the terminal end of the chromosome.</p>
+                    </div>
+                    <h3>Telomere</h3>
+                    <p>A telomere is a short and specific region of repetitive DNA at the end of a linear eukaryotic chromosome, which protects the end of the chromosome from deterioration. Its name is derived from the Greek nouns telos "end" and merοs "part". The telomere regions deter the degradation of genes near the ends of chromosomes by allowing for the shortening of chromosome ends, which necessarily occurs during chromosome replication.</p>
+                    <p>One or more parts of a chromosome accept and retain basic dyes faster and longer than other. These parts are called <span class=boldi>Heterochromatin,</span> the other part are called <span class=boldi>Euchromatins</span></p>
+                </div>
+                <p>The DNA in Eukaryotic cells is coiled tightly around proteins called <strong><span class="boldi">histones</span></strong>, which help in the tight packing of DNA. During interphase, the DNA is not tightly coiled into chromosomes, but exists as <span class="boldi">chromatin.</span></p>
+            <p>Each body cell contains two complete sets of chromosomes (one from each parent). This is the normal for Eukaryotes and is known as diploid (2n) in human ,46. Such cells are formed by mitosis</p>
+                <p>Sex cells (gametes – eggs and sperm) have only one set of chromosomes (in humans, 23) and such cells are known as haploid (n). Each cell is unique, as it is produced by meiosis. Meiosis is necessary because most organisms reproduce sexually, and during fertilisation, the gametes fuse and the number of chromosomes therefore doubles (sperm (n) + egg (n) = 2n), to produce the first cell of the next generation – the zygote (2n).</p>
+                <p>Chromosomes can be divided into two types. In humans, we have 22 pairs of autosomes, which are the same in every individual, and one pair of sex chromosomes (XX = female, XY = male). This means that females are the homozygous sex and males the heterozygous sex.</p>
+            </div>
+           <div data-role="footer">
+           
+           </div>
+           </div><!--page ends-->
+<!--======================================CHROMOSOME VARIATION====================== -->
+         <div data-role="page" id="chromosomeVariation"><!-- chromosome varaition page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>Chromosome Variation</h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
+              
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br> Genetics</a></li>
+                   <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="#Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="#mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+        <p>There are different variations or changes which occur in the chromosomes. Variations in chromosomes are of two types:</p>
+                <ul>
+                <li>Variations in chromosome number</li>
+                    <li>Variation in chromosome structure</li>
+                </ul>
+                <div data-role="collapsible" class="ui-mini">
+                <h2>Varaition In Chromosome Number</h2>
+                    <p>Changes in chromosome number are of two basic types: changes in whole chromosome sets (resulting in a condition of euploidy) and changes in parts of chromosome sets (resulting in aneuploidy).</p>
+                    <h3>Change in chromose set</h3>
+                    <p>Organisms with multiples of the basic chromosome set are called euploid. The number of chromosome in somatic cells is called DIPLOID or 2n number and that in mature germ cells is HAPLOID or n number. The haploid and diploid states are both cases of normal euploidy. Organisms that have more or less than the normal number of sets are euploids. Polyploids are individual organisms in which there are more than two chromosome sets.</p>
+                    <p>They can be represented by <strong>3n (triploid), 4n (tetraploid), 5n (pentaploid), 6n (hexaploid),</strong> and so forth. A familiar example of aberrant euploidy is found in wheat in which the chromosome numbers of the somatic cells in different species are 2, 4, 6 times n which happens to be 7 in the wheat</p>
+                    <p>Species like this are said to form the polyploid series. In such a series the number of chromosomes in the somatic cells could be 2n, 4n, 6n with respect to the basic lowest common multiple. Durum wheat is thus tetraploid in the series whilst common wheat is Hexaploid.</p>
+                    <p>In the realm of polyploids, we must distinguish between autopolyploids, which are composed of multiple sets orignating from within one species, and allo-polyploids, which are composed of sets from two or more different species. Allopolyploids form only between closely related species; however, the different chromosome sets are only partly homologous (homeologous), not fully homologous, as they are in autopolyploids.</p>
+                    <div data-role="collapsible-set">
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Autopolyploids</h2>
+                        <p>Triploids are usually autopolyploids. They arise spontaneously in nature, and they can be constructed by geneticists from the cross of a 4n (tetraploid) and a 2n (diploid). The 2n and the n gametes unite to form a 3n triploid. Triploids are characteristically sterile. The problem, like that of monoploids, lies in pairing at meiosis.</p>
+                        <p>Autotetraploids arise by the doubling of a 2n complement to 4n. This doubling can occur spontaneously, but it can also be induced artificially through the application of chemical agents that disrupt microtubule polymerization</p>
+                    </div>
+                        <div data-role="collapsible" class="ui-mini">
+                        <h2>Allopolyploids</h2>
+                            <p>An allopolyploid is a plant that is a hybrid of two or more species, with two or more copies of each of the input genomes. The prototypic allopolyploid was an allotetraploid synthesized by G. Karpechenko in 1928. He wanted to make a fertile hybrid that would have the leaves of the cabbage (Brassica) and the roots of the radish (Raphanus), because they were the agriculturally important parts of each plant. Each of these species has 18 chromosomes and they are related closely enough to allow intercrossing. A viable hybrid progeny individual was produced from seed. However, this hybrid was functionally sterile because the 9 chromosomes from the cabbage parent were different enough from the radish chromosomes that pairs did not synapse and segregate normally</p>
+                        </div>
+                        <div data-role="collapsible" class="ui-mini">
+                        <h2>Polyploid Animals</h2>
+                            <p>Polyploidy is more common in plants than in animals, but there are cases of naturally occurring polyploid animals. Examples are found in flatworms, leeches, and brine shrimps. In these animals, reproduction is by parthenogenesis, the development of a special type of unfertilized egg into an embryo, without the need for fertilization. Triploid and tetraploid Drosophila have been synthesized experimentally. However, examples are not limited to these so-called lower forms. Polyploid amphibians and reptiles are surprisingly common. They have several modes of reproduction. Polyploid male and female frogs and toads participate in a sexual cycle, whereas polyploid salamanders and lizards are parthenogenetic. The Salmonidae family of fishes (including salmon and trout) is a familiar example of a group that appears to have originated through ancestral polyploidy.</p>
+                        </div>
+                    </div>
+                    
+                    <h3>Changes in parts of a whole chromosome (Aneuploidy)</h3>
+                        <p>Aneuploidy is the second major category of chromosome aberrations in which chromosome number is abnormal. An aneuploid is a individual organism whose chromosome number differs from the wild type by part of a chromosome set. Generally, the aneuploid chromosome set differs from wild type by only one chromosome or by a small number of chromosomes. An aneuploid can have a chromosome number either greater or smaller than that of the wild type. For example, the aneuploid condition 2n−1 is called monosomic (meaning “one chromosome”) because there is only one copy of some specific chromosome present instead of the usual two found in its diploid progenitor. For autosomes in diploid organisms, the aneuploid 2n+1 is called trisomic,2n−1 is monosomic, and 2n−2 (where the −2 represents homologs) is nullisomic.</p>
+                        <div data-role="collapsible-set">
+                        <div data-role="collapsible" class="ui-mini">
+                        <h2>Monosomics (2 - 1)</h2>
+                            <p>Monosomic chromosome complements are generally deleterious. Monosomics for all human autosomes die in womb.
+In humans, a sex-chromosome monosomic complement of 44 +1 X produces a phenotype known asTurner syndrome (XO). Affected people have a characteristic phenotype: they are sterile females, short in stature, and often have a web of skin extending between the neck and shoulders. Although their intelligence is near normal, some of their specific cognitive functions are defective. About 1 in 5000 female births show Turner syndrome.
+</p>
+                        </div>
+                            <div data-role="collapsible" class="ui-mini">
+                            <h2>Trisomics (2n + 1)</h2>
+                                <p>The trisomic condition also is one of chromosomal imbalance and can result in abnormality or death. However, there are many examples of viable trisomics. Furthermore, trisomics can be fertile. When cells from some trisomic organisms are observed under the microscope at the time of meiotic chromosome pairing, the trisomic chromosomes are seen to form an associated group of three, whereas the other chromosomes form regular pairs.</p>
+                            </div>
+                            <div data-role="collapsible" class="ui-mini">
+                            <h2>Nondisjunction</h2>
+                                <p>The cause of most aneuploid conditions is nondisjunction in the course of meiosis or mitosis. Disjunction is another word for the normal segregation of homologous chromosomes or chromatids to opposite poles at meiotic or mitotic divisions. Nondisjunction is a failure of this process, and two chromosomes or chromatids go to one pole and none to the other. In meiotic nondisjunction, the chromosomes may fail to disjoin at either the first or the second division. Either way, n+1 and n−1 gametes are produced. If an n−1 gamete is fertilized by an n gamete, a monosomic (2n−1 zygote is produced. The fusion of an n+1 and an n gamete yields a trisomic 2n+1</p>
+                            </div>
+                        </div>
+                    
+                </div>
+                <hr class="break">
+                <div data-role="collapsible" class="ui-mini">
+                <h2>Variation In Chromosome Structure</h2>
+                    <div data-role="collapsible-set">
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Delections</h2>
+                        <p>Sometimes a chromosome will arise in which a segment is missing. These chromosomes are said to have deletions. Deletions are generally harmful, and typically, the larger the deletion, the more harmful it is. Small deletions are often viable if the deletion is heterozygous, because the other chromosome contains copies of the genes missing in the chromosome with the deletion. But even small deletions are usually lethal if they are homozygous. A deletion on one homologue can “unmask” recessive alleles on the other homologue, this effect is called pseudo-dominace.</p>
+                    </div>
+                        <div data-role="collapsible" class="ui-mini">
+                        <h2>Duplication</h2>
+                            <p>When segments of chromosomes occur thrice in the cell, instead of the normal twice, these are called duplications. The duplicated part may be attached to one of the chromosomes to which the segment belongs or to some other chromosomes or it could even be inserted into any other gene. Duplication often results in reduction of viability, but in general duplications are less severe in their effects than are deletions.</p>
+                        </div>
+                        <div data-role="collapsible" class="ui-mini">
+                        <h2>Inversions</h2>
+                            <p>An inversion is a segment of a chromosome turned end to end within the chromosome.
+Chromosomes break and rejoin in a different orientation. If this happens in a germ cell, the gametes will contain a rearrangement or inversion.
+Presumably inversions result from breaks at two places followed by recovery of the fragment thus cut out but with that fragment reversed from its normal position.
+</p>
+                        </div>
+                        <div data-role="collapsible" class="ui-mini">
+                        <h2>Translocation</h2>
+                            <p>While inversions resulted from breaks in a chromosome, followed by restoration of the segment cut out (although in the wrong way round), translocation results from such a fragment failing to get back to where it belongs and hence, it pairs up with an end of some other non-homologous chromosomes.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+           <div data-role="footer">
+           
+           </div>
+           </div><!--page ends-->
+
+<!--===========================================THE FUNDAMENTAL PRINCIPLES OF INHERITANCE==============================================================-->
+         <div data-role="page" id="mendelP"><!--fundamental principal of inheritance page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>THE FUNDAMENTAL PRINCIPLES <br> OF INHERITANCE</h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
+              
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br> Genetics</a></li>
+                   <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="#Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="#mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+        <div data-role="collapsible" class="ui-mini">
+        <h2>Story of Mendel</h2>
+            <p>In 1857, Mendel collected and observed the numerous varieties of the garden peas which seedmen offered for sale and to study the differences among them. These varieties differed in seven different characters. After observation and experiments carried out on the seven different characters of peas; he presented the result of his hybridization experiments with generalization, which we know as “Mendel’s laws” in 1866. His work was neglected till the 1900.</p>
+            <p>This forgotten work proclaimed its importance when the law of segregation was rediscovered almost simultaneously by three different investigators, who had obtained results like Mendel’s. these three Hugo deVries in Holland, Carl Correns in Germany, and von Tschermak in Austria. Immediately his conclusions began to be confirmed and extended by experiments carried on in various parts of the world on many kinds of animals and plants.</p>
+            <p>Mendel’s experiment (use of the garden pea, Pisum sativum, was evidently not an accident, but the results of long careful thought. First, pollination could easily be controlled in this plant. Normally the pea plant was self – fertilized and consequently use of one of Mendel’s main techniques, “selfing” present no difficulties. Second, the pea plant was easy to cultivate, and from one generation to the next took only a single growing season. Third, peas had many sharply defined inherited differences that had long been collected by seedsmen in form of individual varieties.</p>
+        </div>
+                <h3>The Seven different characters of Peas Mendel took into consideration in his experiment</h3>
+                <ul>
+                <li>Shape of the seed – which was either Round or Wrinkled</li>
+                    <li>Colour of the seed coat – Yellow or Green</li>
+                    <li>Shape of the seed pod – Inflated or Constricted</li>
+                    <li>Colour of the seed pod – Yellow or Green</li>
+                    <li>Position of Flowers on the stem – Axial or Terminal</li>
+                    <li>Height of the stem – Tall or Dwarf</li>
+                    <li>Colour of flower – Purple or White</li>
+                </ul>
+        </div>
+           <div data-role="footer">
+          
+           </div>
+           </div><!--page ends-->
+<!--==================================================Mendel’s Law of Segregation==================================================-->
+         <div data-role="page" id="segregationLaw"><!--mendel law of segregation page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>Mendel's Law of Segregation</h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
+              
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br> Genetics</a></li>
+                   <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="#Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="#mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+       <p>Mendel crossed a variety of peas having smoothly rounded seeds with a variety of deeply wrinkled seeds. The hybrid seed resulting from this cross were all round, like the round seeded parent. This was true regardless of which variety was used to furnish the pollen and which is the egg. The wrinkled trait disappeared in the F1 progeny. The following season Mendel planted the hybrid round seeds. When round hybrid plants were self fertilized and progeny (second or F2 generation ) were classified, some were round and some were wrinkled. From these at harvest time he obtained 5474 round seeds and 1850 wrinkled seeds or ratio 2.96 round to 1 wrinkled (almost a perfect 3:1 ratio).</p>
+                <p>In another experiment Mendel crossed tall pea plants with dwarf pea plant; all offspring in the First (F1 ) generation were all tall. The dwarf trait had disappeared in the F1 progeny. When tall hybrid plants were self fertilized and progeny (second, or F2 generation)  were classified; some were tall and some were dwarf, about three fourth were tall and one-fourth were dwarf. Mendel raised 1064 F2 plants of which consisted of 787 tall plants and 277 dwarfs, a nearly perfect 3:1 ratio.</p>
+                <p>An important feature of Mendel’s results was that the F1 progeny plants all exhibited the trait expressed in one of the parent plants and other parent character did not appear among the F1 progeny. The factor (gene) specifying one of the traits had overriding or dominant controlling effect over the factor (gene) specifying the other trait. The other trait disappeared or was masked in the F1 reappeared in one fourth of the F2 progeny. In genetics, the traits that is expressed in the F1 hybrids is termed the <strong><i>dominant trait</i></strong>, the one that is masked in the F1 hybrid is termed the <strong><i>recessive trait.</i></strong> Similarly the factor (genes) that specifies the trait expressed in F1 generation is known as the dominant gene and the gene that control the trait that is masked in the F1   generation is termed the recessive gene. All the seven characters studied by Mendel behaved in the same way. Mendel described this as segregating members of allelic pair of genes in the Hybrid organism.</p>
+        <p>The paired genes (allelic pairs like Tt, or Rr ) separate from one another and are distributed to different sex cells of hybrid individuals. The alleles for contrasting characters when they are together in F1 hybrid do not blend, instead preserve their individuality and segregate into offspring of F2 generation.</p>
+                <p>Segregation proofs that contrasting character like round or wrinkled shape of seed, tall or dwarf size of plant etc, are determined by genes which are transmitted from parents to offspring in the sex cells or gametes, which ultimately determine the appearance of organism coming from the union of these gametes.</p>
+                <p><strong>Mendel’s First Law, the principle of segregation, it states that the hereditary patterns are determined by genes that occur in pairs in an individual but segregate from each other in the formation of sex cells (gametes) so that any one gamete receives only one or the other of the paired alleles.</strong></p>
+                <p>If two plants of same variety or two animals of same breed differing in only one pair of contrasting characters are crossed, each one of the F1 progeny receives one gene each from both parents (Each parent has two genes) and shows characteristic phenotype of only one particular parent (dominant, tall), the characteristic of other parent remaining unexpressed (recessive, dwarf). These two qualitatively different factors in F1 do not blend with each other but pass (segregate) uninfluenced to the progeny of next F2 generation. The gametes generated in the F1 mate at random to yield F2 population, three-fourths of which are constitute of dominant (tall) and one fourth of recessive phenotypes (dwarf).</p>
+
+            </div>
+           <div data-role="footer">
+          
+           </div>
+           </div><!--page ends-->
+
+<!--=====================================================================Law of Independent Assortment=========================================-->
+         <div data-role="page" id="lawIndependant"><!--352 page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>Law of <br>Independent Assortment</h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
+              
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br> Genetics</a></li>
+                   <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="#Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="#mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+      <p>Mendel also crossed plants that differed in two pairs of alleles. He crossed plants having round, yellow seeds with plants having wrinkled, green seeds. All the F1 seeds resulting from the cross were round and yellow as expected. When the F1 hybrids were allowed to self fertilize, four F2 phenotypes were observed in a definite pattern. From a total of 556 seeds, the following distribution was obtained: 315 round, yellow, 108 round, green; 101 wrinkled, yellow and 32 wrinkled green. These results closely fit a ratio closely fit a ratio of 9:3:3:1 (i.e. 315/556 = 9/16, 108/556 = 3/16, 101/556 = 3/16 and 32/556 =1/16). Mendel recognized this as the result of two monohybrid crosses, each expected to result in a 3:1 ratio, operating together. The product of two monohybrid ratio (3:1)2 or (3+1)2  was equal to the dihybrid ratio (3+1)2 = (9+3+3+1).</p>
+                <p>R, r pair of gene  =  1RR + 2Rr + 1rr (Monohybrid cross)</p>
+                <p>Y, y pair of gene = 1YY + 2Yy + 1yy (Monohybrid cross)</p>
+                <p>Having</p>
+                <p>(1RR + 2Rr + 1rr) (1YY + 2Yy + 1yy)  = 1RRYY + 2RrYY + 1rrYY + 2RRYy + 4RrYy + 2rrYy + 1RRyy + 2Rryy + 1rryy</p>
+                <p>Thus, conforming to the law of probability, called the <span class=boldi><strong>Product rule</strong></span>, which states that <strong>that The chance of two or more independent events occurring together is the product of chance of their separate occurrences.</strong> </p>
+                <p>This independent assortment of two character pair is made still more manifest by the fact that the particular combination in which the character are brought into a cross make no difference at all in the manner in which they are assorted and recombined in F2 generation. In example cited above both dominant character were brought by one parent both recessive by the other, but exactly the same results are obtained in the F2 if, instead of crossing round and yellow with wrinkled and green, round and yellow is crossed with wrinkled and yellow. The F1 is round and yellow and the F2 is 9/16 round yellow; 3/16 round and green; 3/16 wrinkled yellow; and 1/16 wrinkled and green</p>
+                <p>The results were those expected from the assortment of two independent pairs of alleles, each showing dominance of one member. Not only did the members of each pair of alleles segregate independently, but the allelic pairs of different genes behaved and transmitted independently with respect to each other. Mendel therefore drew another conclusion:</p>
+                <p><strong>Members of different pairs of alleles assort independently into gametes.</strong></p>
+                <p>The concept of independent assortment of different pairs of alleles is designated as his second principle. This is Mendel’s second law, the principle of independent assortment.</p>
+                <p>If two plants of the same variety or two animals of same breed differing in two pairs of contrasting characters are crossed, the four alleles ( two, one for each character from one parent) are brought in the F1 hybrid. The segregation of unlike alleles for one pair of characters (during gamete formation) is not influenced in any way by the segregation of the other pair. The gametes thus produced recombine in all possible combinations to yield an F2 population of four different phenotypic classes in the ratio of 9 (both dominant character): 3 ( one dominant and one recessive): 3 (one recessive and one dominant) : 1 (both recessive character). </p>
+        </div>
+           <div data-role="footer">
+           
+           </div>
+           </div><!--page ends-->
+
+<!--==========================================================GENE INTERACTION==========================================-->
+         <div data-role="page" id="geneInteraction"><!--gene interaction page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>gene Interaction</h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
+              
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br> Genetics</a></li>
+                   <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="#Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="#mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+        <p>Mendel’s laws of segregation and independent assortment were immediately confirmed following the rediscovery of his work in 1900. It was by no means certain that these laws were to apply universally to all heredity in all organisms. In fact mendelian inheritance might be rather an exception, and that most heredity might be of the blending type, in which the heredities of parents mix or blend in offspring. Indeed, the classical mendelian ratios such as 3:1, 9:3:3:1, etc do not by any means occur in all crosses</p>
+                <p>It was soon found, however that most of the apparent exceptions could be explained by assuming that many characters are influenced by two or more pairs of genes the expression of which interact. Depending upon the form of interaction, phenotypic ratios are modified in various ways, although the fundamental laws of the transmission of heredity remain the same.</p>
+                <p>A classical case of two genes influencing the same character was discovered in the early 1900’s by Bateson and Punnett in fowl. The Wyandotte breed has a comb known as rose comb. Brahmas and some other varieties have a comb known as the Pea comb. Leghorn and breeds of similar origin have single comb. Crosses between rose comb and single combed varieties showed that rose comb is dominant over single comb and there was a segregation in two-three fourth rose and one fourth single in F2. In crosses between pea-combed and single combed birds, pea combed was dominant over single, and a 3:1 ratios appeared in F2 .</p>
+                <p>A new and interesting result was obtained when rose were crossed with pea combed varieties, the F1 birds showed, an new comb form known as “Walnut” , previously noted as characteristic of Malay breed of fowl. When the F1 walnut combed birds were bred together, a still more remarkable results were manifested, in F2 generation there appeared not only walnut, rose and pea-combed fowl but single combed ones as well. These types occurred in the proportions 9/16 walnut 3/16 rose, 3/16 pea, 1/16 single.</p>
+                <p>The walnut comb depends on the presence of two dominant genes, R and P. One of these genes alone (R) produces rose comb and other alone (P) produces pea comb. The combination of the recessive alleles of these genes produces the single type of comb, rp.</p>
+                <p>Mode of inheritance of the genes for rose and pea does not differ at all from the usual Mendelian scheme.</p>
+                <p>The differences that distinguish this and similar cases from ordinary dihybrid inheritance are that:</p>
+                <ol>
+                    <li>The F1, resembles neither of the parent</li>
+                    <li>Apparently novel characters appear in F2. One of these new characters (Walnut comb) evidently results from an interaction between two independently inherited dominant genes, and the other (single comb) results from the interaction of their two recessive alleles.</li>
+                
+                </ol>
+        </div>
+           <div data-role="footer">
+           
+           </div>
+           </div><!--page ends-->
+
+<!--================================================DOMINANCE==============================================================================-->
+     <div data-role="page" id="dominace"><!-- page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>DOMINANCE</h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
+              
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br> Genetics</a></li>
+                   <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="#Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="#mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+        <p>When one gene of a pair masks the presence and prevents the manifestation of its allele, we say the first gene is dominant. Dominance is the expression of a single gene at the expense of its allele.</p>
+                <p>Dominance of genes is what is seen in the two laws of Mendel, but it has been found out that there are exception to this conditions as these exceptions gives a ratio that is totally different from that of Mendel (9:3:3:1).</p>
+                <div data-role="collapsible-set">
+                <div data-role="collapsible" class="ui-mini">
+                <h2>Incomplete Dominance</h2>
+                    <p>This is a condition where the dominant allele does not completely express itself. The effect of one of the two alleles is more conspicuous than the other. The F1 produced is a fine mixture of the expression of the two alleles, it may be intermediate of the two alleles, making the expressed feature a new one but it has no allele of its own. The incompletely dominant allele has quantitative effect.</p>
+                </div>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Co-dominance</h2>
+                        <p>This is a condition where the F1 (heterozygous) exhibits the phenotypic characters of both alleles, here the effect of both alleles are equally conspicuous .There is no mixing of the effect of the two alleles (both alleles produce their effect independently and a quantitative effect is absent.</p>
+                    </div>
+                </div>
+                <h3>Effect of Lack of Dominance in the phenotypes</h3>
+                <div data-role="collapsible-set">
+                <div data-role="collapsible" class="ui-mini">
+                <h2>Dominance Lacking in Both Pairs</h2>
+                    <p>In Snapdragons there is a pair of alleles, R and r, acting on flower colour in such a way that RR produces red, Rr produces pink and rr produces white. Similarly, another pair of alleles B and b, affect leaf shape in such a manner that BB produces broad leaves, Bb intermediate leaves and bb narrow leaves like those of grass.</p>
+                    <p>A red flowered, broad leaved plant when crossed with a white-flowered, narrow leaved one will produce an F1 consisting of all pink-flowered, intermediate leaved plant, F2 from such cross will a have a ratio 1:2:2:4:1:2:1:2:1</p>
+                </div>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Dominance Lacking in One pair</h2>
+                        <p>In short horn cattle, the polled or hornless condition is found to be due to dominant gene P, while the horned condition is brought about by homozygous state of its alleles, “p”. Another pair of alleles R and r, affect the colour of the coat, but is not dominant to r,  so that genes act as follow: RR produces red coats, Rr produces roan coat and rr produces white coat. If homozygous polled red male is mated to horned white female, we shall obtain in F1 consisting all polled roan animal. When F1 individuals are crossed among themselves in F2 generation will be 3:6:3:1:2:1.</p>
+                    </div>
+                </div>
+        </div>
+           <div data-role="footer">
+           
+           </div>
+           </div><!--page ends-->
+<!--====================================================epistasis======================================================-->
+         <div data-role="page" id="epistasis"><!--epistasis page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>epistasis</h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
+              
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br> Genetics</a></li>
+                   <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="#Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="#mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+        <p>Epistasis is the masking of a gene in a locus by another gene in an entirely different locus. Epistasis thus involves non allelic genes. A gene or factor that mask or prevents the expression of another gene is said to be epistatic to it and the gene that is hidden is said to be hypostatic
+There are different types of epistasis
+</p>
+                <div data-role="collapsible-set">
+                <div data-role="collapsible" class="ui-mini">
+                <h2>Recessive Epistasis</h2>
+                    <p>Let us cross a homozygous black rat with an albino which carries recessives alleles. Black rat will have genotype RRCC and the albino will be of thee formula rrcc. Rats which contain genes cc are albino whether it contain R- or rr, When a gene of one pair masks the expression of the genes of another pair it is said to be epistatic to the other pair. Thus, in this c is epistatic to R and r. Since the epistatic gene “c”, in this case is recessive to its own allele, C, we may speak of this two – pair cross as involving recessive epistatis</p>
+
+                </div>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Dominant Epistasis</h2>
+                        <p>In dogs we know a pair of genes, B, b acting on coat colour in such a way that B- results in black, bb in brown. There is another pair I and i, which control production of pigment in such a way that animals containing I  are prevented for developing pigment in the fur, even though specific genes for coulour may be present. Individual must be of the genotype ii to have any pigment developed. Animals of the genotype I- are white. Let us cross a homozygous brown dog with a homozygous white one which has black but no brown among its ancestors. The gene “I” is epistatic to genes B and b since the epistatic gene I is dominant to its allele “i”. thus this is the case of dominant epistasis.</p>
+
+                    </div>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Dominant and Recessive Epistasis</h2>
+                        <p>The White plumage of white leghorn fowls is almost completely dominant over the colour plumage of black breed or another colour varieties. The white plumage of some other white varieties, such as white Wyandotte or white Plymouth rocks has been found to be recessive to coloured plumage. White leghorn contains a colour gene and with it a gene that inhibits its expression. They are genetically coloured birds that are unable to develop their true colour. Denoting such inhibitors by I and the colour gene by C, the white leghorn is IICC and the white Wyandotte is iicc. By crossing white leghorn with White Wyandotte, the F1 chickens from such a cross are white with small dark flecks and resemble the F1 birds produced by crossing White leghorn with coloured fowls. When F1 whites are bred together, white and coloured chicks appear in F2 in the proportion 13/16 white (or white with small dark flecks) to 3/16 coloured . the coloured genes are hypostatic to the white of leghorns. In the F2 it may be seen that out of every 16 birds, twelve will inherit the dominant epistatic gene I. this dominant colour- inhibitory allele I prevent colour even though birds may carry alleles for colour, such alleles cannot be expressed in the presence of I- and will thus be white. The remaining four will lack this gene, but one of these will also be white because of the homozygous condition of the recessive epistatic gene, “c”, homozygous recessive allele, c which blocks synthesis of necessary pigment precursor. Only three out of every sixteen have the required (ii -) genotype for the production of colour. This is a case of dominant and recessive epistasis</p>
+
+                    </div>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Duplicate Recessive Epistasis</h2>
+                        <p>In this, the 9:3:3:1 ratio is modified because the recessive p is epistatic to C and c and in addition the recessive c is similarly epistatic to P and p. Consequently the 3, 3 and 1 cannot be total apart phenotypically, resulting in a ratio 9:7. Each white variety, failure to form pigment was due to deficient recessive gene and that’s why presence of both dominant alleles were necessary for completion of change of biochemical processes leading to formation of coloured substances. 
+Another example occurs in human deaf – mutation which appeared to be inherited in the same manner. In man, two pairs of genes “D and d”, E and e interact is such a way that D-E- produces normal hearing, while any other combination of these genes produces children who are deaf at birth. They are not truly “mule” but they do not speak without special training because thery never heard words.
+</p>
+                    </div>
+                    <div data-role="collapsible" class="ui-mini">
+                    <h2>Duplicate Dominant Epistasis</h2>
+                        <p>Certain breeds of poultry have feathers on the shank, while others have none. The black Langshan have feathered shanks, while the shanks of the Buff Rocks are unfeathered. A cross between these breeds results in an F1 birds with feathered shanks and in F2 with a ratio of fifteen feathered shanked and one with no feathers on shanks. Assuming two pairs of genes, F and f and S and s. this shows that it is a case of modified dihybrid ratio in which two pairs of factors are responsible for the expression of the character of shank. So if (F) and (S) be the two pairs of factors then homozygous feathered shank bird will be of (FFSS) combination and homozygous unfeathered shank will have (ffss) combination. It is a case of double dominant epistasis, feathered shank is expressed due to presence of at least one dominant factor of these two pairs of alleles, while unfeathered condition is possible only when both pair of alleles are in recessieve combination. This 15:1 ratio in F2 can be explained also by duplicate factor hypostasis, which assumes the two pairs of genes are controlling a single trait (presence or absence of feather on shank) and presence of one dominant gene “F or S” can produce the dominant phenotype that feathers on the shank.</p>
+                    </div>
+                    
+                    
+                </div><!--collapsible set close-->
+        </div>
+           <div data-role="footer">
+           <h2>Animal Genetics and Breeding - Creative Commons Attribution-NonCommercial 4.0
+                 International License.</h2>
+           </div>
+           </div><!--page ends-->
+<!--======================================================***********multiple Alleles**********=============================================================================-->
+         <div data-role="page" id="multipleAlleles"><!--multipleAlleles page starts-->
+       
+           <!--352 hearder-->
+           <div data-role="header">
+           <h1>multiple Alleles</h1>
+                <!--Navigation Bar-->
+               <div data-role="navbar">
+               <ul>
+                <li><a href="#genetics" data-position-fixed="true" class="ui-btn ui-btn-mini ui-icon-bars ui-btn-icon-left">Animal Genetics</a></li>
+              <!--this will generate a pop up on click-->
+                    <li><a href="#breeding" data-rel="popup" data-transition="flip">Animal Breeding</a></li>
+               </ul>
+               </div> <!--Navigation Bar ends-->
+              
+             
+           </div><!--header ends-->
+
+             <!--ANIMAL GENETICS PANEL-->
+               <div data-role="panel" id="genetics" data-dismissible="false" data-position="left" data-swipe-close="false">
+          <div data-role="header">
+          <h1>Topics</h1>
+          </div>
+               <div data-role="main" class="ui-content">
+               <ul data-role="listview">
+           <li data-role="list-divider">Topic Index</li>
+               <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#geneticsIntro">Introduction</a></li>
+                   <li><a href="#history">History of <br> Genetics</a></li>
+                   <li> <a href="#cellcycle">Cell Cycle</a></li>
+                   <li><a href="#mitosis">Mitosis</a></li>
+                   <li><a href="#Meiosis">Meiosis</a></li>
+                   <li><a href="#chromosome">Chromosome</a></li>
+                   <li><a href="#chromosomeStructure">Structure of <br> Chromosome</a></li>
+                   <li><a href="#chromosomeVariation">Chromosome Variation</a></li>
+                   <li> <a href="#mendelP">Mendelian Principle<br> of inheritance</a></li>
+                   <li><a href="#segregationLaw">Law of <br>Segregation</a></li>
+                   <li><a href="#lawIndependant">Law of <br>Independant <br>Assortment</a></li>
+                   <li><a href="#geneInteraction">Gene Interaction</a></li>
+                   <li><a href="#dominace">Dominance</a></li>
+                   <li><a href="#epistasis">Epistasis</a></li>
+                   <li><a href="#multipleAlleles">Multiple Alleles</a></li>
+                   <li><a href="#QuanTraits">Quantitative Traits</a></li>
+                   <li><a href="#QuaTraits">Qualitative Traits</a></li>
+                   <li><a href="#mFH">Multiple Factor <br>Hypothesis</a></li>
+           </ul>
+               </div>
+                
+           </div><!--ANIMAL GENETICS panel close-->
+ <!--
+               ========================================
+                    animal breeding panel made inactive and replace with pop up 
+           because content of animal breeding is not available.
+           Panel should be re-activated when contents is available.
+           
+           ===========
+               <div data-role="panel" id="breeding" data-dismissible="false"data-swipe-close="false" data-position="right">
+               <div data-role="header">
+               <h1>Topics</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                   <ul data-role="listview">
+                   <li data-role="list-divider">Topic Index</li>
+                       <li><a href="#"></a></li>
+                   </ul>
+                   </div>
+               </div><!--animal breeding panel close 
+               
+--> 
+               
+            <div data-role="main" class="ui-content">
+
+                 
+               <!--Breeding popup to be removed when content
+                of  breeding lecture note is available.-->
+               <div data-role="popup" id="breeding" data-dismissible="false">
+               <div data-role="header">
+                   <a href="352.html" class="ui-btn ui-corner-all ui-shadow ui-icon-delete 
+                      ui-btn-right ui-btn-icon-notext ui-nodisc-icon">Close</a>
+               <h1>Ooops</h1>
+               </div>
+                   <div data-role="main" class="ui-content">
+                       <p>We are working hard to make <br>
+                       contents of this lecture note <br>
+                       available in our next update.</p>
+                   
+                   
+                   </div>
+               </div><!--/information popup end-->
+
+
+            <!--all content goes here-->
+        <p>Allele is a shorter term than allelomorph (another form) is the alternate form of gene. Many genes have two alternate forms but several other have more than two alternate forms. More than two alleles at the same locus give rise to a multiple allelic series. Multiple alleles can be defined as a series of forms of a gene situated at the same locus of homologous chromosomes. According to Mendel, each gene had two alternate forms or allele morphs are being dominant and the other being recessive. Dominant being the wild type from which recessive mutant was evolved through mutation. Likewise, a wild type can mutate in many ways and produce many mutant forms and a mutant can again undergo another mutation and give rise to a new mutant. Hence, a gene can exist in more than two allelomorphs. Usually wild type allele is dominant over its recessive allele. wild allele is represented as + .
+Multiple alleles can be defined as a</p>
+                <ul>
+                
+                    <li>series of forms of a gene</li>
+                    <li>situated at the same locus of homologous chromosomes</li>
+                    <li>Affect same character</li>
+                </ul>
+                <p>Multiple alleles are</p>
+                <ul><li>Different form of the same genes</li><li>that is the sequence of the bases is slightly different in the genes located on the same
+place of the chromosome.</li></ul>
+                <p>Multiple alleles are alternative states at the same locus. Remember: each individual will only have two alleles for a trait but there are several alleles to choose from.) The classical example for multiple alleles is human blood group self incompatibility in tobacco, coat colour in rabbit, self incompatability genes in brassica.</p>
+                <p>The number of possible genotypes in a series of multiple alleles is ½ n (n+1)</p>
+                <p>n = no of alleles</p>
+                <ul>
+                
+                    <li>Di-allelic genes can generate 3 genotypes.</li>
+                    <li>Genes with 3 alleles can generate 6 genotypes.</li>
+                    <li>Genes with 4 alleles can generate 10 genotypes.</li>
+                    <li>Genes with 8 alleles can generate 36 genotypes.</li>
+                </ul>
+                <h3>Important features of multiple alleles</h3>
+                <ul>
+                
+                    <li>Multiple alleles always belong to the same locus and one allele is present at a locus at a time in a chromosome</li>
+                    <li>Multiple alleles always control the same character of an individual</li>
+                    <li>Wild type allele is dominant over other alleles</li>
+                    <li>There is no crossing over in the multiple alleles</li>
+                    <li>In a series of mutiple alleles wild type is always dominant</li>
+                    <li>When two mutant types are crossed wild form cannot be recovered</li>
+                    <li>The cross between two mutant alleles will always produce mutant phenotype. Examples of multiple alleles are 1) fur colour in a rabbit, 2) ABO blood group in man 3) Wing type in drosophila 4) Eye colour in drosophila etc. Fur colour in Rabbit. In rabbit, three alternate forms of genes, which controls coat colour. C causes wild type and its alleles.</li>
+                </ul>
+        </div>
+           <div data-role="footer">
+           <h2>Animal Genetics and Breeding - Creative Commons Attribution-NonCommercial 4.0
+                 International License.</h2>
+           </div>
+           </div><!--page ends-->
     </body>
 </html>

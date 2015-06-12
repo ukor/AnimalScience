@@ -126,17 +126,13 @@ hr.break {
    align:center;
    width: 33%;
 }
+span.boldi{
+ font-style: italic;
+ text-wrap: initial; 
+}
 img.bordered {
     border: solid black 1px;
     background-color: white;
     padding: 100px;
     alignment-adjust: central;
 }
-
-#footerlinks{
-    text-align: right;
-}
-#headerlinks{
-    text-align: right;
-}
-
