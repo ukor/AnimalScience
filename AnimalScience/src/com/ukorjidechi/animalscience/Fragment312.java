@@ -12,7 +12,9 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 
 /**
- * @author Ukor
+ * @author Ukor Jidechi E.(2014)
+ * The activity loads an html page (312.html)
+ * from the asset folder.
  *
  */
 public class Fragment312 extends Fragment {

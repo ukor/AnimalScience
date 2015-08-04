@@ -12,7 +12,9 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 
 /**
- * @author Ukor
+ * @author Ukor Jidechi E.(2014)
+ * This activity load an HTML document(411.html) from 
+ * the asset folder.
  *
  */
 public class Fragment411 extends Fragment {

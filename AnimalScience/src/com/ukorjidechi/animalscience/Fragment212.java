@@ -12,7 +12,7 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 
 /**
- * @author Ukor
+ * @author Ukor Jidechi E.(2014)
  *
  */
 public class Fragment212 extends Fragment {

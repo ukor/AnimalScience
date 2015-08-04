@@ -9,7 +9,7 @@ import android.os.Handler;
 /**
  * @author Ukor
  * This activity is set to display for 3 seconds
- * it displays the logo of the developer for 3 seconds 
+ * it displays the logo of the app(Animal science) for 3 seconds 
  * before lunching the main activity
  *
  */
